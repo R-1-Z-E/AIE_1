@@ -1,6 +1,8 @@
 {
   "best_model_name": "Boosting_HGB",
   "selection_metric": "roc_auc",
+  "selection_source": "cv_train",
+  "best_cv_score": 0.8965275610699098,
   "best_model_params": {
     "categorical_features": "from_dtype",
     "class_weight": null,
