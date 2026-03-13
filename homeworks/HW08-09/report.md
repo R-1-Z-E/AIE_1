@@ -38,11 +38,11 @@
 
 ## 7. Результаты
 Ссылки на файлы в репозитории:
-- [Таблица результатов (runs.csv)](./artifacts/runs.csv)
-- [Веса лучшей модели (best_model.pt)](./artifacts/best_model.pt)
-- [Конфигурация (best_config.json)](./artifacts/best_config.json)
-- [Кривые обучения лучшей модели](./artifacts/figures/curves_best.png)
-- [Анализ экстремальных LR](./artifacts/figures/curves_lr_extremes.png)
+- Таблица результатов: `./artifacts/runs.csv`
+- Лучшая модель: `./artifacts/best_model.pt`
+- Конфиг лучшей модели: `./artifacts/best_config.json`
+- Кривые лучшего прогона: `./artifacts/figures/curves_best.png`
+- Кривые “плохих LR”: `./artifacts/figures/curves_lr_extremes.png`
 
 Короткая сводка:
 - Лучший эксперимент части A: E4 (Архитектура с BatchNorm)
