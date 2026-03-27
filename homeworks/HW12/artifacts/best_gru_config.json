@@ -1,0 +1,1 @@
+{"architecture": "GRU", "input_size": 1, "hidden_size": 64, "num_layers": 1, "window_size": 14, "batch_size": 64, "learning_rate": 0.001, "epochs": 50, "seed": 42, "scaler": "StandardScaler"}

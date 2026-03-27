@@ -1,0 +1,5 @@
+experiment_id,task,dataset,seed,split_summary,window_size,horizon,model_summary,features_summary,scaler,optimizer,lr,epochs_trained,best_val_mae,best_val_rmse,best_val_mape,test_mae,test_rmse,test_mape,notes
+B1,forecasting,S12-hw-dataset.csv,42,70/15/15,1,1,naive-last,lag_1,,,,0,6.4434,8.2035,4.3946,,,,Baseline 1 (Previous value)
+B2,forecasting,S12-hw-dataset.csv,42,70/15/15,7,1,moving-average,rolling_mean_7,,,,0,12.7237,15.2363,8.8288,,,,Baseline 2 (MA 7 days)
+B3,forecasting,S12-hw-dataset.csv,42,70/15/15,14,1,Ridge Regression,lags+rolling+calendar,StandardScaler,,,0,7.8276,9.326,5.2109,,,,Baseline 3 (Ridge on features)
+R1,forecasting,S12-hw-dataset.csv,42,70/15/15,14,1,GRU univariate,target_only,StandardScaler,Adam,0.001,50,5.5951,7.1789,3.7908,6.3494,7.9941,4.1363,GRU on window seq
