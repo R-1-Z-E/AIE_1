@@ -1,0 +1,7 @@
+experiment_id,task,dataset,seed,model_summary,optimizer,lr,epochs_trained,best_val_accuracy,test_accuracy,precision,recall,mean_iou,notes
+C1,classification,STL10,42,SimpleCNN,Adam,0.001,5,0.543,,,,,Base CNN no augs
+C2,classification,STL10,42,SimpleCNN,Adam,0.001,5,0.555,,,,,Base CNN with augs
+C3,classification,STL10,42,ResNet18_head_only,Adam,0.001,5,0.94,,,,,Pretrained backbone frozen
+C4,classification,STL10,42,ResNet18_finetune,Adam,1e-4/1e-3,5,0.951,0.95425,,,,layer4 and fc finetuned
+V1,detection,VOCDetection,42,FasterRCNN_ResNet50_FPN,,,,,,0.27837837837837837,0.944954128440367,0.8041207,threshold 0.3
+V2,detection,VOCDetection,42,FasterRCNN_ResNet50_FPN,,,,,,0.5487804878048781,0.8256880733944955,0.8170734,threshold 0.7

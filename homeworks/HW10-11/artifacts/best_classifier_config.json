@@ -1,0 +1,12 @@
+{
+    "dataset": "STL10",
+    "architecture": "ResNet18 (partial finetune layer4+fc)",
+    "transforms": "Resize(224), Normalize(ImageNet)",
+    "optimizer": "Adam",
+    "lr_layer4": 0.0001,
+    "lr_fc": 0.001,
+    "epochs": 5,
+    "seed": 42,
+    "best_val_accuracy": 0.951,
+    "test_accuracy": 0.95425
+}
