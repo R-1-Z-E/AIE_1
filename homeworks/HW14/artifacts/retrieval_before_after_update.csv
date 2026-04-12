@@ -1,0 +1,4 @@
+query,before_retrieved_sources,after_retrieved_sources,changed
+Что такое гибридный поиск и зачем он нужен?,"DOC-09, DOC-04","DOC-12, DOC-09",True
+Для чего применяются кросс-энкодеры?,"DOC-10, DOC-08","DOC-12, DOC-10",True
+В чем суть метода Self-RAG?,"DOC-01, DOC-08","DOC-01, DOC-08",False
