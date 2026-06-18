@@ -1,0 +1,11 @@
+features:
+  sma_short: 7
+  sma_long: 30
+  momentum_period: 3
+
+model:
+  algorithm: "RandomForestClassifier"
+  n_estimators: 200
+  max_depth: 5
+  class_weight: "balanced"
+  random_state: 42

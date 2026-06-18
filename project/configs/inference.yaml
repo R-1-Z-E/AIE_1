@@ -1,0 +1,6 @@
+service:
+  title: "Trading Signal API"
+  version: "1.0.0"
+  
+thresholds:
+  buy_probability: 0.5

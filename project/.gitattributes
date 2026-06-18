@@ -1,0 +1,6 @@
+* text=auto
+
+*.pkl binary
+
+*.csv linguist-generated=true
+*.ipynb linguist-generated=true

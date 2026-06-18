@@ -1,0 +1,27 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Python кэш
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Виртуальные окружения
+.venv/
+venv/
+env/
+
+# Секреты
+.env
+
+# Логи, тесты и черновики
+mlruns/
+tests/
+notebooks/
+
+# IDE
+.vscode/
+.idea/

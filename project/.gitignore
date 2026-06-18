@@ -1,0 +1,21 @@
+# Python кэш и тесты
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Виртуальные окружения
+.venv/
+venv/
+env/
+
+# MLflow трекинг (тяжелые логи экспериментов)
+mlruns/
+
+# Локальные секреты и переменные окружения
+.env
+
+# IDE и системные файлы
+.vscode/
+.idea/
+.DS_Store
