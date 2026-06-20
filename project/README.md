@@ -28,7 +28,8 @@
   - `data/` – логика работы с датасетами;
   - `features/` – препроцессинг (расчет индикаторов);
   - `models/` – оркестрация обучения и сериализация;
-  - `service/` – REST API приложение (FastAPI + Pydantic).
+  - `service/` – REST API приложение (FastAPI + Pydantic);
+  - `utils/` – инфраструктурные модули (логирование и утилиты);
 - `data/` – демонстрационная выборка котировок.
 - `configs/` – конфигурационные файлы (YAML) и шаблон `.env.example`.
 - `tests/` – модульные тесты (pytest).
@@ -114,9 +115,8 @@ curl -X POST http://localhost:8000/predict \
 
 ```json
 {
-  "signal": "BUY",
-  "confidence": 0.76,
-  "model_version": "RandomForest_v1"
+  "action": "BUY",
+  "probability": 0.76
 }
 ```
 
